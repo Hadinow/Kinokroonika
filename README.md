@@ -5,3 +5,7 @@ In this project, we performed the following major tasks via python programming l
 * Automated Gender Detection of authors and persons detected by NER
 * Geo Coordinates of Places
 * pairs of co-occurrences
+
+#How to merge two dataframe
+
+df_new1 = df_new.append(extract_rows2, ignore_index = True)
