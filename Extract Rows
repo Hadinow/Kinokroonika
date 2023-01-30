@@ -1,0 +1,4 @@
+Extract all rows that match with specific values of a dataframe column in pandas python. The python code is as follow:
+
+
+extract_rows2 = Geocoordinate_2[Geocoordinate_2["Place_Catagory"].str.contains("multiple locations|mountains|country|region|river|lake") == True]
