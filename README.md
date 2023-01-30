@@ -8,10 +8,12 @@ In this project, we performed the following major tasks via python programming l
 
 ## How to merge two dataframe
 
-_df_new1 = df_new.append(extract_rows2, ignore_index = True)_
-
+```
+df_new1 = df_new.append(extract_rows2, ignore_index = True)_
+```
 ## Extract rows with single condition and multiple values
 
 Extract all rows that match with specific values of a dataframe column in pandas python. The python code is as follow:
-
-_extract_rows2 = Geocoordinate_2[Geocoordinate_2["Place_Catagory"].str.contains("multiple locations|mountains|country|region|river|lake") == True]
+```
+extract_rows2 = Geocoordinate_2[Geocoordinate_2["Place_Catagory"].str.contains("multiple locations|mountains|country|region|river|lake") == True]
+```
