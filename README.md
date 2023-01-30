@@ -6,7 +6,7 @@ In this project, we performed the following major tasks via python programming l
 * Geo Coordinates of Places
 * pairs of co-occurrences
 
-## How to merge two dataframe
+## How to merge two dataframes
 
 ```
 df_new1 = df_new.append(extract_rows2, ignore_index = True)_
