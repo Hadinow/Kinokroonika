@@ -22,3 +22,9 @@ The following R script is used to remove a range of rows based on the index of d
 ```
 df <- df[-(160:1500), ]
 ```
+## Rearrange the collumns of dataframe in R
+In order to relocate the column of dataframe we use the **relocate()** function and **.before** and **.after** to specifiy the location of column.
+```
+df <- df %>% relocate(ID, .before  = authors_test)
+df <- df %>% relocate(ID, .after  = authors_test)
+```
