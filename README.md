@@ -17,3 +17,8 @@ Extract all rows that match with specific values of a dataframe column in pandas
 ```
 extract_rows2 = Geocoordinate_2[Geocoordinate_2["Place_Catagory"].str.contains("multiple locations|mountains|country|region|river|lake") == True]
 ```
+## Remove range of rows in R
+The following R script is used to remove a range of rows based on the index of dataframe.
+```
+df <- df[-(160:1500), ]
+```
